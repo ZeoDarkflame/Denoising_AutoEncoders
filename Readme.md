@@ -46,13 +46,13 @@ The results obtained are:
 
 The model was also tried on a larger image of dimensions 1024x1024x3, the following image was used:  
 
-![Lion](Denoising_Results/Lion_original.png)
+![Lion](https://github.com/ZeoDarkflame/Denoising_AutoEncoders/blob/master/Denoising_Results/Lion_original.PNG)
 
 The image was first broken into pieces of size 32x32x3, on which the model works, the result was calculated and then reassembled into an image, the following results were obtained:
 
-![Lion_noised](Denoising_Results/Lion_noised.png)  
+![Lion_noised](https://github.com/ZeoDarkflame/Denoising_AutoEncoders/blob/master/Denoising_Results/Lion_noised.PNG)  
 **Noised**  
-![Lion_denoised](Denoising_Results/Lion_denoised.png)  
+![Lion_denoised](https://github.com/ZeoDarkflame/Denoising_AutoEncoders/blob/master/Denoising_Results/Lion_denoised.PNG)  
 **Denoised**
 
 The results are affected by the fact that the model is working on smaller segments of the picture instead of looking at the bigger picture itself, and also the fact that the multiplying factor used to noise this image was 0.67, which is much larger than a factor of 0.05 on which the model was trained.

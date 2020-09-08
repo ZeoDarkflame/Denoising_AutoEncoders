@@ -56,3 +56,7 @@ The image was first broken into pieces of size 32x32x3, on which the model works
 **Denoised**
 
 The results are affected by the fact that the model is working on smaller segments of the picture instead of looking at the bigger picture itself, and also the fact that the multiplying factor used to noise this image was 0.67, which is much larger than a factor of 0.05 on which the model was trained.
+
+<hr>
+
+> To open Colab notebook goto - https://colab.research.google.com/github/ and then copy and paste the notebook links from the repository

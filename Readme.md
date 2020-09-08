@@ -59,4 +59,4 @@ The results are affected by the fact that the model is working on smaller segmen
 
 <hr>
 
-> To open Colab notebook goto - https://colab.research.google.com/github/ and then copy and paste the notebook links from the repository
+> To open Colab notebook goto - https://colab.research.google.com/github/ and then copy and paste the notebook links from the repository, or directly goto https://colab.research.google.com/github/ZeoDarkflame/Denoising_AutoEncoders/blob/master/AutoEncoder_Playground
